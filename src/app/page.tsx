@@ -16,6 +16,9 @@ export default function Home() {
         <p className="text-lg mt-2">
           Analista de Sistemas com experiência em .NET, Oracle, AngularJS e Next.js.
         </p>
+        <p className="text-lg mt-2">
+          Hoje, além de atuar como analista CLT, ajudo empresas a automatizarem rotinas, integrarem sistemas e desenvolverem soluções web sob demanda. Com 14 anos de experiência, ofereço soluções práticas e rápidas para quem precisa de agilidade e segurança.
+        </p>
       </div>
     </main>
   );
