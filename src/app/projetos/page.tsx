@@ -1,8 +1,8 @@
 const projetos = [
     {
-      titulo: "Dashboard de Equipamentos",
-      descricao: "Sistema de monitoramento em tempo real usando Oracle + Next.js",
-      link: "#",
+      titulo: "Inclui Web",
+      descricao: "Sistema para auditoria de assebilidade em sites, focado em acessibilidade.",
+      link: "https://www.incluiweb.com.br",
     },
     // Adicione mais aqui
   ];
