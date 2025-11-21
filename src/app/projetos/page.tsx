@@ -8,7 +8,13 @@ const projetos = [
     link: "https://incluiweb.com.br", 
     stack: ["Next.js", "TailwindCSS", "Node.js"],
   },
-    // Adicione mais aqui
+    {
+    titulo: "Landing Page Lançamentos Imobiliários",
+    descricao:
+      "Landing page para divulgação de lançamentos imobiliários, focada em conversão e experiência do usuário.",
+    link: "https://landing-imb-example-szyv.vercel.app/", 
+    stack: ["Next.js", "TailwindCSS", "Vercel"],
+  },
   ];
   
   export default function Projetos() {
