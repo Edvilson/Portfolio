@@ -29,3 +29,70 @@ body {
   @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
   font-family: sans-serif;
 }
+
+/* Container Principal */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza tudo horizontalmente */
+  padding: 50px 20px;
+  min-height: calc(100vh - 80px); /* Garante que preencha a tela (ajuste 80px para altura do seu header) */
+}
+
+.contact-container h1 {
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #fff; /* Título em branco */
+}
+
+/* Layout de Cards (Grid) */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* 3 colunas em desktop, empilha em mobile */
+  gap: 30px; /* Espaçamento entre os cards */
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* Estilo do Card Individual */
+.contact-card {
+  background-color: #1a233a; /* Fundo do card ligeiramente mais claro que o fundo da página */
+  border: 1px solid #3c4a6a;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  text-decoration: none; /* Remove sublinhado */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Efeito de Hover */
+.contact-card:hover {
+  transform: translateY(-5px); /* Efeito de elevação sutil */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra mais visível */
+  background-color: #212c47; /* Fundo um pouco mais escuro ao passar o mouse */
+}
+
+/* Estilo dos Ícones */
+.contact-card .icon {
+  font-size: 3em;
+  color: #64b5f6; /* Uma cor azul vibrante para destaque */
+  margin-bottom: 10px;
+}
+
+/* Título e Valor */
+.contact-card .title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #bbdefb; /* Cor mais clara para o título */
+  margin-bottom: 5px;
+}
+
+.contact-card .value {
+  font-size: 0.95em;
+  color: #e3f2fd; /* Cor mais próxima do branco para o valor */
+  word-break: break-all; /* Garante que emails longos não quebrem o layout */
+}
