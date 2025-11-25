@@ -11,7 +11,7 @@ type Experiencia = {
     {
       cargo: "Analista de Sistemas",
       empresa: "Wilson Sons",
-      periodo: "Nov 2024 - Atual (9 meses)",
+      periodo: "Nov 2024 - Atual (12 meses)",
       local: "Rio Grande, Rio Grande do Sul, Brasil - Híbrida",
       descricao: "Análise de sistemas de software, API REST, React.js.",
       competencias: "Análise de sistemas de software · API REST · React.js",
